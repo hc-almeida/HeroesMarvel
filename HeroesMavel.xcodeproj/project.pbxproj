@@ -25,6 +25,9 @@
 		741573EF271E824200884D85 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573EE271E824200884D85 /* CharacterCell.swift */; };
 		741573F1271E82C300884D85 /* UITableViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573F0271E82C300884D85 /* UITableViewCell+Extensions.swift */; };
 		741573F3271E839B00884D85 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573F2271E839B00884D85 /* Character.swift */; };
+		741573F5271F11B800884D85 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573F4271F11B800884D85 /* TabBar.swift */; };
+		741573F8271F122E00884D85 /* FavoriteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573F7271F122E00884D85 /* FavoriteListViewController.swift */; };
+		741573FB271F2F1D00884D85 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573FA271F2F1D00884D85 /* UIColor+Extension.swift */; };
 		ADB595E3647E842AA6E2D473 /* Pods_HeroesMavel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784F0C242F257FB4476EE84C /* Pods_HeroesMavel.framework */; };
 		F7D00A1D2637ED34E39C5AED /* Pods_HeroesMavelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D2A5F25EE239639D9AC6DB /* Pods_HeroesMavelTests.framework */; };
 /* End PBXBuildFile section */
@@ -74,6 +77,9 @@
 		741573EE271E824200884D85 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 		741573F0271E82C300884D85 /* UITableViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extensions.swift"; sourceTree = "<group>"; };
 		741573F2271E839B00884D85 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		741573F4271F11B800884D85 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		741573F7271F122E00884D85 /* FavoriteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListViewController.swift; sourceTree = "<group>"; };
+		741573FA271F2F1D00884D85 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		784F0C242F257FB4476EE84C /* Pods_HeroesMavel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroesMavel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE34ACE5EC977DAF70DD738 /* Pods_HeroesMavel_HeroesMavelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroesMavel_HeroesMavelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C11E176604D06C1BB8354B40 /* Pods-HeroesMavel-HeroesMavelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroesMavel-HeroesMavelUITests.release.xcconfig"; path = "Target Support Files/Pods-HeroesMavel-HeroesMavelUITests/Pods-HeroesMavel-HeroesMavelUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -212,6 +218,7 @@
 		741573DB271E7E6800884D85 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				741573F6271F120000884D85 /* FavoriteList */,
 				741573DA271E7E2200884D85 /* CharacterDetails */,
 				741573D9271E7E1200884D85 /* CharacterList */,
 			);
@@ -240,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				741573EB271E81BA00884D85 /* ViewCodeProtocol.swift */,
+				741573F4271F11B800884D85 /* TabBar.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -248,8 +256,17 @@
 			isa = PBXGroup;
 			children = (
 				741573F0271E82C300884D85 /* UITableViewCell+Extensions.swift */,
+				741573FA271F2F1D00884D85 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		741573F6271F120000884D85 /* FavoriteList */ = {
+			isa = PBXGroup;
+			children = (
+				741573F7271F122E00884D85 /* FavoriteListViewController.swift */,
+			);
+			path = FavoriteList;
 			sourceTree = "<group>";
 		};
 		905DC4034A61A42D7F12C44A /* Frameworks */ = {
@@ -538,11 +555,14 @@
 				741573EF271E824200884D85 /* CharacterCell.swift in Sources */,
 				741573E4271E80EE00884D85 /* CharacterListRouter.swift in Sources */,
 				741573E8271E816A00884D85 /* CharacterListViewDelegate.swift in Sources */,
+				741573F8271F122E00884D85 /* FavoriteListViewController.swift in Sources */,
 				741573A1271E4C1600884D85 /* AppDelegate.swift in Sources */,
+				741573FB271F2F1D00884D85 /* UIColor+Extension.swift in Sources */,
 				741573E6271E812200884D85 /* CharacterListBuilder.swift in Sources */,
 				741573EC271E81BA00884D85 /* ViewCodeProtocol.swift in Sources */,
 				741573DE271E7FEF00884D85 /* CharacterListView.swift in Sources */,
 				741573A3271E4C1600884D85 /* SceneDelegate.swift in Sources */,
+				741573F5271F11B800884D85 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

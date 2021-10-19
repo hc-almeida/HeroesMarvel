@@ -64,7 +64,7 @@ extension CharacterListView: ViewCodeProtocol {
     }
     
     func setupComponents() {
-        backgroundColor = .white
+        backgroundColor = .blueDark
         tableView.delegate = self
         tableView.dataSource = self
         CharacterCell.registerOn(tableView)
@@ -82,7 +82,7 @@ extension CharacterListView: UITableViewDelegate {
                 withIdentifier: identifier, for: indexPath) as? CharacterCell
         else { return UITableViewCell() }
         
-        cell.setup(character: characterList[indexPath.item])
+        cell.setup(name2: "Hellen Caroline", image2: UIImage(named: "joker1") ?? UIImage())
         
         return cell
     }
@@ -93,7 +93,7 @@ extension CharacterListView: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         if indexPath.row + 1 == characterList.count {
-//            delegate.didDisplayEndList()
+
         }
     }
 }
@@ -103,6 +103,6 @@ extension CharacterListView: UITableViewDelegate {
 extension CharacterListView: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return characterList.count
+        return 20
     }
 }

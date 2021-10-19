@@ -12,15 +12,25 @@ class CharacterCell: UITableViewCell {
         
     // MARK: - User Interface Components
     
+    private lazy var cardView: UIView = {
+        let view = UIView()
+        view.backgroundColor = .blueDark
+        return view
+    }()
+    
     private lazy var characterImage: UIImageView = {
         let imageView = UIImageView(frame: .zero)
         imageView.contentMode = .scaleAspectFit
+        imageView.layer.cornerRadius = 6
+        imageView.layer.borderWidth = 1
+        imageView.layer.borderColor = UIColor.customRed.cgColor
         return imageView
     }()
     
     private lazy var name: UILabel = {
         let label = UILabel()
-        label.font = .systemFont(ofSize: 16)
+        label.textColor = .white
+        label.font = .boldSystemFont(ofSize: 18)
         label.adjustsFontSizeToFitWidth = true
         return label
     }()
@@ -28,7 +38,6 @@ class CharacterCell: UITableViewCell {
     // MARK: - Public Properties
     
     static let identifier = String(describing: CharacterCell.self)
-    
     
     // MARK: - Inits
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
@@ -41,38 +50,44 @@ class CharacterCell: UITableViewCell {
     }
     
     // MARK: - Public Functions
-    
-    func setup(character: Character) {
-//        characterImage.load(url: character.image)
-        name.text = "teste"
+
+    func setup(name2: String, image2: UIImage) {
+        name.text = name2
+        characterImage.image = image2
     }
 }
 
 // MARK: - ViewCodeProtocol Extension
+
 extension CharacterCell: ViewCodeProtocol {
 
     func setupSubviews() {
-        addSubview(characterImage)
+        addSubview(cardView)
+        cardView.addSubview(characterImage)
         addSubview(name)
     }
     
     func setupConstraints() {
+
+        cardView.snp.makeConstraints { make in
+            make.height.equalTo(180)
+            make.width.equalTo(120)
+            make.top.left.equalToSuperview().offset(16)
+            make.bottom.equalToSuperview().inset(16)
+        }
+        
         characterImage.snp.makeConstraints { make in
-            make.height.equalTo(100)
-            make.width.equalTo(100)
-            make.top.left.equalTo(safeAreaLayoutGuide).offset(16)
-            make.bottom.equalTo(safeAreaLayoutGuide).inset(16)
+            make.top.left.right.bottom.equalToSuperview()
         }
 
         name.snp.makeConstraints { make in
-            make.left.equalTo(characterImage.snp.right).offset(8)
-            make.top.equalTo(safeAreaLayoutGuide).inset(8)
-            make.bottom.equalTo(safeAreaLayoutGuide).offset(8)
+            make.left.equalTo(cardView.snp.right).offset(16)
+            make.top.equalToSuperview().inset(24)
         }
     }
     
     func setupComponents() {
-        backgroundColor = .white
+        backgroundColor = .blueDark
         selectionStyle = .none
     }
 }

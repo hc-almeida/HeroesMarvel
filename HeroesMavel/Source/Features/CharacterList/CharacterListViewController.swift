@@ -34,10 +34,20 @@ class CharacterListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .red
+        view.backgroundColor = .blueDark
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        setupNavigation()
+    }
     
+    private func setupNavigation() {
+        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationController?.setNavigationBarHidden(false, animated: true)
+        navigationItem.hidesSearchBarWhenScrolling = false
+    }
+
 }
 
 extension CharacterListViewController: CharacterListViewDelegate {

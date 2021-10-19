@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,6 @@
 		741573A1271E4C1600884D85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573A0271E4C1600884D85 /* AppDelegate.swift */; };
 		741573A3271E4C1600884D85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573A2271E4C1600884D85 /* SceneDelegate.swift */; };
 		741573A5271E4C1600884D85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573A4271E4C1600884D85 /* ViewController.swift */; };
-		741573A8271E4C1600884D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741573A6271E4C1600884D85 /* Main.storyboard */; };
 		741573AA271E4C1600884D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741573A9271E4C1600884D85 /* Assets.xcassets */; };
 		741573AD271E4C1600884D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741573AB271E4C1600884D85 /* LaunchScreen.storyboard */; };
 		741573B8271E4C1700884D85 /* HeroesMavelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573B7271E4C1700884D85 /* HeroesMavelTests.swift */; };
@@ -46,7 +45,6 @@
 		741573A0271E4C1600884D85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		741573A2271E4C1600884D85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		741573A4271E4C1600884D85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		741573A7271E4C1600884D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		741573A9271E4C1600884D85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		741573AC271E4C1600884D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		741573AE271E4C1600884D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,13 +114,10 @@
 		7415739F271E4C1500884D85 /* HeroesMavel */ = {
 			isa = PBXGroup;
 			children = (
-				741573A0271E4C1600884D85 /* AppDelegate.swift */,
-				741573A2271E4C1600884D85 /* SceneDelegate.swift */,
-				741573A4271E4C1600884D85 /* ViewController.swift */,
-				741573A6271E4C1600884D85 /* Main.storyboard */,
-				741573A9271E4C1600884D85 /* Assets.xcassets */,
-				741573AB271E4C1600884D85 /* LaunchScreen.storyboard */,
 				741573AE271E4C1600884D85 /* Info.plist */,
+				741573D6271E7DE600884D85 /* Resources */,
+				741573D7271E7DF800884D85 /* Source */,
+				741573D8271E7DFF00884D85 /* SupportFiles */,
 			);
 			path = HeroesMavel;
 			sourceTree = "<group>";
@@ -145,6 +140,56 @@
 			path = HeroesMavelUITests;
 			sourceTree = "<group>";
 		};
+		741573D6271E7DE600884D85 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				741573A9271E4C1600884D85 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		741573D7271E7DF800884D85 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				741573DB271E7E6800884D85 /* Features */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		741573D8271E7DFF00884D85 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				741573A0271E4C1600884D85 /* AppDelegate.swift */,
+				741573A2271E4C1600884D85 /* SceneDelegate.swift */,
+				741573AB271E4C1600884D85 /* LaunchScreen.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		741573D9271E7E1200884D85 /* CharacterList */ = {
+			isa = PBXGroup;
+			children = (
+				741573A4271E4C1600884D85 /* ViewController.swift */,
+			);
+			path = CharacterList;
+			sourceTree = "<group>";
+		};
+		741573DA271E7E2200884D85 /* CharacterDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CharacterDetails;
+			sourceTree = "<group>";
+		};
+		741573DB271E7E6800884D85 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				741573DA271E7E2200884D85 /* CharacterDetails */,
+				741573D9271E7E1200884D85 /* CharacterList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
 		905DC4034A61A42D7F12C44A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +210,6 @@
 				68602C67FC9CB67182A36132 /* Pods-HeroesMavelTests.debug.xcconfig */,
 				D9F0292304927992DCCA0B4B /* Pods-HeroesMavelTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -280,7 +324,6 @@
 			files = (
 				741573AD271E4C1600884D85 /* LaunchScreen.storyboard in Resources */,
 				741573AA271E4C1600884D85 /* Assets.xcassets in Resources */,
-				741573A8271E4C1600884D85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,14 +506,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		741573A6271E4C1600884D85 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				741573A7271E4C1600884D85 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		741573AB271E4C1600884D85 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

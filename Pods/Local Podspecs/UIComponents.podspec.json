@@ -1,0 +1,22 @@
+{
+  "name": "UIComponents",
+  "version": "0.1.0",
+  "summary": "A short description of UIComponents.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hc-almeida/UIComponents",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hc-almeida": "azev.hellen@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/hc-almeida/UIComponents.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "UIComponents/Classes/**/*"
+}

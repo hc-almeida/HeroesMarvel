@@ -1,3 +1,45 @@
-PODFILE CHECKSUM: 12be66cfe6f38166d4276e049d0aa26793c4a98e
+PODS:
+  - Alamofire (4.9.1)
+  - Kingfisher (5.14.1):
+    - Kingfisher/Core (= 5.14.1)
+  - Kingfisher/Core (5.14.1)
+  - R.swift (5.1.0):
+    - R.swift.Library (~> 5.1.0)
+  - R.swift.Library (5.1.0)
+  - SnapKit (5.0.1)
+  - SwiftLint (0.40.3)
+  - UIComponents (0.1.0)
+
+DEPENDENCIES:
+  - Alamofire (= 4.9.1)
+  - Kingfisher (= 5.14.1)
+  - R.swift (~> 5.1.0)
+  - SnapKit (~> 5.0.0)
+  - SwiftLint (~> 0.40.3)
+  - UIComponents (from `DevelopmentPods/UIComponents/`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - R.swift
+    - R.swift.Library
+    - SnapKit
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  UIComponents:
+    :path: DevelopmentPods/UIComponents/
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Kingfisher: 8050bc6f7f68cbf3908bd04df7ccbac188f6d6d6
+  R.swift: 8cbc4fc69b740305b6a17c8a8ed968eb788962d9
+  R.swift.Library: fa85ce1e0d0b7e818cd9e080df910ba54d2776cc
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftLint: dfd554ff0dff17288ee574814ccdd5cea85d76f7
+  UIComponents: 5e3977ab763f6fb0fad4d0534b9cdefd2e11476b
+
+PODFILE CHECKSUM: ebf220ea91f512501aa8cbcb843ce25697b0a70e
 
 COCOAPODS: 1.11.2

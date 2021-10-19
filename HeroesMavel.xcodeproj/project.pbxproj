@@ -180,6 +180,7 @@
 				74157399271E4C1500884D85 /* Sources */,
 				7415739A271E4C1500884D85 /* Frameworks */,
 				7415739B271E4C1500884D85 /* Resources */,
+				3513D5164EB7D51AAA45E5DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,6 +199,7 @@
 				741573AF271E4C1700884D85 /* Sources */,
 				741573B0271E4C1700884D85 /* Frameworks */,
 				741573B1271E4C1700884D85 /* Resources */,
+				9F42E6E9CB7AE6FA4F088496 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +219,7 @@
 				741573BA271E4C1700884D85 /* Sources */,
 				741573BB271E4C1700884D85 /* Frameworks */,
 				741573BC271E4C1700884D85 /* Resources */,
+				A502C03203FDE142C439CC31 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,6 +301,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3513D5164EB7D51AAA45E5DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeroesMavel/Pods-HeroesMavel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeroesMavel/Pods-HeroesMavel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeroesMavel/Pods-HeroesMavel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4B19648400EA99674D354D7A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -318,6 +338,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F42E6E9CB7AE6FA4F088496 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeroesMavelTests/Pods-HeroesMavelTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeroesMavelTests/Pods-HeroesMavelTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeroesMavelTests/Pods-HeroesMavelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A502C03203FDE142C439CC31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeroesMavel-HeroesMavelUITests/Pods-HeroesMavel-HeroesMavelUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeroesMavel-HeroesMavelUITests/Pods-HeroesMavel-HeroesMavelUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeroesMavel-HeroesMavelUITests/Pods-HeroesMavel-HeroesMavelUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CC51E379B22E64E90888D552 /* [CP] Check Pods Manifest.lock */ = {

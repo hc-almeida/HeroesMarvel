@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11A51F0A97D7FF83A17B93CCBBE94E35 /* Pods-HeroesMavel-HeroesMavelUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DEF7E9416D3D0851DD03CAC6E639F /* Pods-HeroesMavel-HeroesMavelUITests-dummy.m */; };
+		11CA3390A7F4767CE8AFB1C28CC76442 /* Pods-HeroesMavel-HeroesMavelUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC4943BBC1A1BF335D3528B424DFB6D8 /* Pods-HeroesMavel-HeroesMavelUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F5D7CF91ED473C7D2651DCAC261291B /* Pods-HeroesMavelTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F21763C6084B182851A37EFB703EEC /* Pods-HeroesMavelTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32C78A4B67E4D9681DBBBD041F6343CD /* Pods-HeroesMavelTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD12917BAB05651DADAF9EB7B3132062 /* Pods-HeroesMavelTests-dummy.m */; };
+		63A7A71367830C7D54D46881ABD8281B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		99F259C732E4F1E517F2A86DFF27B6B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9FFAD0CAE76A5C837139514F02E16B0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A822FB0C5D3CB1F41FE47118D7937B47 /* Pods-HeroesMavel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 909BB0B932EE02DD98E155E00F557FD9 /* Pods-HeroesMavel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA3E27F1F64D3FC86237976A57E42C89 /* Pods-HeroesMavel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2AE6873A9BBB0EFBC3EB62A17590FD /* Pods-HeroesMavel-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1E9DA6EE943F9FB8804CAB0A2E451D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42152B858ABF2831ED65BCF949383DFB;
+			remoteInfo = "Pods-HeroesMavel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0069D885D4AAD939B22479E793CB9034 /* Pods-HeroesMavel-HeroesMavelUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeroesMavel-HeroesMavelUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D2AE6873A9BBB0EFBC3EB62A17590FD /* Pods-HeroesMavel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeroesMavel-dummy.m"; sourceTree = "<group>"; };
+		0DA831FC50B35FB9917A9C5AE5E22A8A /* Pods-HeroesMavel-HeroesMavelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeroesMavel-HeroesMavelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1065CFC3C9DD3F5FF02DC7855AD73102 /* Pods-HeroesMavelTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeroesMavelTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E2C6ECEC7EB6F0AEE3E98952C0442F0 /* Pods-HeroesMavel-HeroesMavelUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeroesMavel-HeroesMavelUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E80AF98C4BDE1D14FD0D59A291D3422 /* Pods-HeroesMavel-HeroesMavelUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HeroesMavel-HeroesMavelUITests"; path = Pods_HeroesMavel_HeroesMavelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23377C14979D67AF672BBE08D4D045CB /* Pods-HeroesMavel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeroesMavel-Info.plist"; sourceTree = "<group>"; };
+		23AEB3CC31BA2A0070CA9953205C8E39 /* Pods-HeroesMavel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HeroesMavel.modulemap"; sourceTree = "<group>"; };
+		46472F36976E6FAB389ACF0BB03D8BAC /* Pods-HeroesMavel-HeroesMavelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeroesMavel-HeroesMavelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BDDDCC7F8E3E83FDCB709B27F65388E /* Pods-HeroesMavel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeroesMavel-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5253D6D5628C60CED8AEEC7E196FA62E /* Pods-HeroesMavel-HeroesMavelUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeroesMavel-HeroesMavelUITests-Info.plist"; sourceTree = "<group>"; };
+		6702A7F4B0A778E82917CA308BE163FC /* Pods-HeroesMavelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeroesMavelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		793CFEAFD3EE5FCBF07910FE80383403 /* Pods-HeroesMavel-HeroesMavelUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HeroesMavel-HeroesMavelUITests.modulemap"; sourceTree = "<group>"; };
+		7FB7DDB094045E3F50E20A78B0C2E635 /* Pods-HeroesMavelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeroesMavelTests.release.xcconfig"; sourceTree = "<group>"; };
+		8CD0AE4350D161F22016CC21B6E30851 /* Pods-HeroesMavelTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HeroesMavelTests"; path = Pods_HeroesMavelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90941BE69427E94033A633222E4199AA /* Pods-HeroesMavel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeroesMavel.debug.xcconfig"; sourceTree = "<group>"; };
+		909BB0B932EE02DD98E155E00F557FD9 /* Pods-HeroesMavel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeroesMavel-umbrella.h"; sourceTree = "<group>"; };
+		92F21763C6084B182851A37EFB703EEC /* Pods-HeroesMavelTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeroesMavelTests-umbrella.h"; sourceTree = "<group>"; };
+		93767B2E8E4C1B6B22A74F6241A1CEB2 /* Pods-HeroesMavelTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeroesMavelTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB5DEF7E9416D3D0851DD03CAC6E639F /* Pods-HeroesMavel-HeroesMavelUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeroesMavel-HeroesMavelUITests-dummy.m"; sourceTree = "<group>"; };
+		B41D8256759EE4E1E22AF2F7972380DE /* Pods-HeroesMavelTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HeroesMavelTests.modulemap"; sourceTree = "<group>"; };
+		CD12917BAB05651DADAF9EB7B3132062 /* Pods-HeroesMavelTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeroesMavelTests-dummy.m"; sourceTree = "<group>"; };
+		E45105A86663042F4DBDDE698FD93560 /* Pods-HeroesMavelTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeroesMavelTests-Info.plist"; sourceTree = "<group>"; };
+		EC4943BBC1A1BF335D3528B424DFB6D8 /* Pods-HeroesMavel-HeroesMavelUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeroesMavel-HeroesMavelUITests-umbrella.h"; sourceTree = "<group>"; };
+		ECE11C4715AFE7E81E609F8138C696C7 /* Pods-HeroesMavel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeroesMavel.release.xcconfig"; sourceTree = "<group>"; };
+		EFAFAF78E6DF09083029CEC4B3B4D831 /* Pods-HeroesMavel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HeroesMavel"; path = Pods_HeroesMavel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA557B9C4655901EABA71505D212B573 /* Pods-HeroesMavel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeroesMavel-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B6DFD1B1116A48EF6060FCD51469E19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFAD0CAE76A5C837139514F02E16B0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FA8273128DAFCD6D6F3DC6C647E20A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F259C732E4F1E517F2A86DFF27B6B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F1391CC1DF4F1D55B993DDE35F6A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A7A71367830C7D54D46881ABD8281B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C41337A71A7FB8818B2A0B923B67D3A /* Pods-HeroesMavelTests */ = {
+			isa = PBXGroup;
+			children = (
+				B41D8256759EE4E1E22AF2F7972380DE /* Pods-HeroesMavelTests.modulemap */,
+				93767B2E8E4C1B6B22A74F6241A1CEB2 /* Pods-HeroesMavelTests-acknowledgements.markdown */,
+				1065CFC3C9DD3F5FF02DC7855AD73102 /* Pods-HeroesMavelTests-acknowledgements.plist */,
+				CD12917BAB05651DADAF9EB7B3132062 /* Pods-HeroesMavelTests-dummy.m */,
+				E45105A86663042F4DBDDE698FD93560 /* Pods-HeroesMavelTests-Info.plist */,
+				92F21763C6084B182851A37EFB703EEC /* Pods-HeroesMavelTests-umbrella.h */,
+				6702A7F4B0A778E82917CA308BE163FC /* Pods-HeroesMavelTests.debug.xcconfig */,
+				7FB7DDB094045E3F50E20A78B0C2E635 /* Pods-HeroesMavelTests.release.xcconfig */,
+			);
+			name = "Pods-HeroesMavelTests";
+			path = "Target Support Files/Pods-HeroesMavelTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B415D179A2ED1477A380E4E3740266D7 /* Pods-HeroesMavel */ = {
+			isa = PBXGroup;
+			children = (
+				23AEB3CC31BA2A0070CA9953205C8E39 /* Pods-HeroesMavel.modulemap */,
+				4BDDDCC7F8E3E83FDCB709B27F65388E /* Pods-HeroesMavel-acknowledgements.markdown */,
+				FA557B9C4655901EABA71505D212B573 /* Pods-HeroesMavel-acknowledgements.plist */,
+				0D2AE6873A9BBB0EFBC3EB62A17590FD /* Pods-HeroesMavel-dummy.m */,
+				23377C14979D67AF672BBE08D4D045CB /* Pods-HeroesMavel-Info.plist */,
+				909BB0B932EE02DD98E155E00F557FD9 /* Pods-HeroesMavel-umbrella.h */,
+				90941BE69427E94033A633222E4199AA /* Pods-HeroesMavel.debug.xcconfig */,
+				ECE11C4715AFE7E81E609F8138C696C7 /* Pods-HeroesMavel.release.xcconfig */,
+			);
+			name = "Pods-HeroesMavel";
+			path = "Target Support Files/Pods-HeroesMavel";
+			sourceTree = "<group>";
+		};
+		C9FA1283AE9EF0ED57725BA399101D8E /* Pods-HeroesMavel-HeroesMavelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				793CFEAFD3EE5FCBF07910FE80383403 /* Pods-HeroesMavel-HeroesMavelUITests.modulemap */,
+				0069D885D4AAD939B22479E793CB9034 /* Pods-HeroesMavel-HeroesMavelUITests-acknowledgements.markdown */,
+				1E2C6ECEC7EB6F0AEE3E98952C0442F0 /* Pods-HeroesMavel-HeroesMavelUITests-acknowledgements.plist */,
+				AB5DEF7E9416D3D0851DD03CAC6E639F /* Pods-HeroesMavel-HeroesMavelUITests-dummy.m */,
+				5253D6D5628C60CED8AEEC7E196FA62E /* Pods-HeroesMavel-HeroesMavelUITests-Info.plist */,
+				EC4943BBC1A1BF335D3528B424DFB6D8 /* Pods-HeroesMavel-HeroesMavelUITests-umbrella.h */,
+				46472F36976E6FAB389ACF0BB03D8BAC /* Pods-HeroesMavel-HeroesMavelUITests.debug.xcconfig */,
+				0DA831FC50B35FB9917A9C5AE5E22A8A /* Pods-HeroesMavel-HeroesMavelUITests.release.xcconfig */,
+			);
+			name = "Pods-HeroesMavel-HeroesMavelUITests";
+			path = "Target Support Files/Pods-HeroesMavel-HeroesMavelUITests";
+			sourceTree = "<group>";
+		};
+		CD36272FF102D90F83D0AFFFA4E50426 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B415D179A2ED1477A380E4E3740266D7 /* Pods-HeroesMavel */,
+				C9FA1283AE9EF0ED57725BA399101D8E /* Pods-HeroesMavel-HeroesMavelUITests */,
+				2C41337A71A7FB8818B2A0B923B67D3A /* Pods-HeroesMavelTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D236C0AB3C05803CD12BFB48AF3B4A27 /* Products */,
+				CD36272FF102D90F83D0AFFFA4E50426 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D236C0AB3C05803CD12BFB48AF3B4A27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAFAF78E6DF09083029CEC4B3B4D831 /* Pods-HeroesMavel */,
+				1E80AF98C4BDE1D14FD0D59A291D3422 /* Pods-HeroesMavel-HeroesMavelUITests */,
+				8CD0AE4350D161F22016CC21B6E30851 /* Pods-HeroesMavelTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7D61C742A1D85EA5250A431A23201EF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5D7CF91ED473C7D2651DCAC261291B /* Pods-HeroesMavelTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97BD5592BB8F26261F5A07799DE65EAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A822FB0C5D3CB1F41FE47118D7937B47 /* Pods-HeroesMavel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5706B290710C3C8E7AE1BBC3E4742C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CA3390A7F4767CE8AFB1C28CC76442 /* Pods-HeroesMavel-HeroesMavelUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		42152B858ABF2831ED65BCF949383DFB /* Pods-HeroesMavel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5DEF4D4FB7618251BA53A6077924E9 /* Build configuration list for PBXNativeTarget "Pods-HeroesMavel" */;
+			buildPhases = (
+				97BD5592BB8F26261F5A07799DE65EAC /* Headers */,
+				3853E336E0E1A30590AD6980767D29A6 /* Sources */,
+				C4FA8273128DAFCD6D6F3DC6C647E20A /* Frameworks */,
+				A78B6AACC719281238A4234EF2F861D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HeroesMavel";
+			productName = Pods_HeroesMavel;
+			productReference = EFAFAF78E6DF09083029CEC4B3B4D831 /* Pods-HeroesMavel */;
+			productType = "com.apple.product-type.framework";
+		};
+		70A1E33CE2EAE72A720AD483C65BA2EC /* Pods-HeroesMavelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01190084B5E1D097F53BB753D2E6B6EA /* Build configuration list for PBXNativeTarget "Pods-HeroesMavelTests" */;
+			buildPhases = (
+				7D61C742A1D85EA5250A431A23201EF6 /* Headers */,
+				B541DD3EE94DD29F275E23776D0C3F71 /* Sources */,
+				C8F1391CC1DF4F1D55B993DDE35F6A43 /* Frameworks */,
+				D1F00DFD4ED4FDFCEC566B9742093D02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EFDE08CD4B9AA1DF0AA96289713AFDD /* PBXTargetDependency */,
+			);
+			name = "Pods-HeroesMavelTests";
+			productName = Pods_HeroesMavelTests;
+			productReference = 8CD0AE4350D161F22016CC21B6E30851 /* Pods-HeroesMavelTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D311E365690E446D3F9A3D2A58D50E67 /* Pods-HeroesMavel-HeroesMavelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738604F6624CDC90BF19D57F6211CA3C /* Build configuration list for PBXNativeTarget "Pods-HeroesMavel-HeroesMavelUITests" */;
+			buildPhases = (
+				B5706B290710C3C8E7AE1BBC3E4742C8 /* Headers */,
+				125C05D4C857DABE59224DD072CCEA9D /* Sources */,
+				8B6DFD1B1116A48EF6060FCD51469E19 /* Frameworks */,
+				1AB3FA9AE5BF6FA404442A0C5A6C3649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HeroesMavel-HeroesMavelUITests";
+			productName = Pods_HeroesMavel_HeroesMavelUITests;
+			productReference = 1E80AF98C4BDE1D14FD0D59A291D3422 /* Pods-HeroesMavel-HeroesMavelUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D236C0AB3C05803CD12BFB48AF3B4A27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42152B858ABF2831ED65BCF949383DFB /* Pods-HeroesMavel */,
+				D311E365690E446D3F9A3D2A58D50E67 /* Pods-HeroesMavel-HeroesMavelUITests */,
+				70A1E33CE2EAE72A720AD483C65BA2EC /* Pods-HeroesMavelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AB3FA9AE5BF6FA404442A0C5A6C3649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78B6AACC719281238A4234EF2F861D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F00DFD4ED4FDFCEC566B9742093D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		125C05D4C857DABE59224DD072CCEA9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A51F0A97D7FF83A17B93CCBBE94E35 /* Pods-HeroesMavel-HeroesMavelUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3853E336E0E1A30590AD6980767D29A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3E27F1F64D3FC86237976A57E42C89 /* Pods-HeroesMavel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B541DD3EE94DD29F275E23776D0C3F71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C78A4B67E4D9681DBBBD041F6343CD /* Pods-HeroesMavelTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EFDE08CD4B9AA1DF0AA96289713AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HeroesMavel";
+			target = 42152B858ABF2831ED65BCF949383DFB /* Pods-HeroesMavel */;
+			targetProxy = B1E9DA6EE943F9FB8804CAB0A2E451D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12B4C3F2D1F6AEF6BD74B0CFFF1C5008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6702A7F4B0A778E82917CA308BE163FC /* Pods-HeroesMavelTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HeroesMavelTests/Pods-HeroesMavelTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HeroesMavelTests/Pods-HeroesMavelTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		481E19441A8FFC676A81FE31B3254227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA831FC50B35FB9917A9C5AE5E22A8A /* Pods-HeroesMavel-HeroesMavelUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HeroesMavel-HeroesMavelUITests/Pods-HeroesMavel-HeroesMavelUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HeroesMavel-HeroesMavelUITests/Pods-HeroesMavel-HeroesMavelUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A1CBFF026424369CE2A28965DA16592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90941BE69427E94033A633222E4199AA /* Pods-HeroesMavel.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HeroesMavel/Pods-HeroesMavel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HeroesMavel/Pods-HeroesMavel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BC228925EAA2F5D4895CCD2A785B9CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46472F36976E6FAB389ACF0BB03D8BAC /* Pods-HeroesMavel-HeroesMavelUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HeroesMavel-HeroesMavelUITests/Pods-HeroesMavel-HeroesMavelUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HeroesMavel-HeroesMavelUITests/Pods-HeroesMavel-HeroesMavelUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C10B7A13864A611C03010DBB4AC46301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FB7DDB094045E3F50E20A78B0C2E635 /* Pods-HeroesMavelTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HeroesMavelTests/Pods-HeroesMavelTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HeroesMavelTests/Pods-HeroesMavelTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CF7350CEC19378CD467BF6F2E2AD77AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE11C4715AFE7E81E609F8138C696C7 /* Pods-HeroesMavel.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HeroesMavel/Pods-HeroesMavel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HeroesMavel/Pods-HeroesMavel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01190084B5E1D097F53BB753D2E6B6EA /* Build configuration list for PBXNativeTarget "Pods-HeroesMavelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B4C3F2D1F6AEF6BD74B0CFFF1C5008 /* Debug */,
+				C10B7A13864A611C03010DBB4AC46301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738604F6624CDC90BF19D57F6211CA3C /* Build configuration list for PBXNativeTarget "Pods-HeroesMavel-HeroesMavelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC228925EAA2F5D4895CCD2A785B9CE3 /* Debug */,
+				481E19441A8FFC676A81FE31B3254227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5DEF4D4FB7618251BA53A6077924E9 /* Build configuration list for PBXNativeTarget "Pods-HeroesMavel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A1CBFF026424369CE2A28965DA16592 /* Debug */,
+				CF7350CEC19378CD467BF6F2E2AD77AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

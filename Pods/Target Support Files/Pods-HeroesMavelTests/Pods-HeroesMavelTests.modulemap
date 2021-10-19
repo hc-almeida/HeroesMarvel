@@ -1,0 +1,6 @@
+framework module Pods_HeroesMavelTests {
+  umbrella header "Pods-HeroesMavelTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -5,6 +5,7 @@ workspace 'HeroesMarvel'
 
 def marvel_modules
      pod 'UIComponents', :path => 'DevelopmentPods/UIComponents/'
+     pod 'Networking', :path => 'DevelopmentPods/Networking/'
 end
 
 def app_pods

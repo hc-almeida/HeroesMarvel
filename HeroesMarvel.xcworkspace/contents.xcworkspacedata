@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:HeroesMavel.xcodeproj">
+      location = "group:/Users/hellen/Documents/Estudos 2.0/HeroesMarvel/HeroesMarvel.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HeroesMarvel.xcodeproj">
    </FileRef>
 </Workspace>

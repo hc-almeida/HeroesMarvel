@@ -1,0 +1,6 @@
+module Pods_HeroesMarvel_HeroesMarvelUITests {
+  umbrella header "Pods-HeroesMarvel-HeroesMarvelUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

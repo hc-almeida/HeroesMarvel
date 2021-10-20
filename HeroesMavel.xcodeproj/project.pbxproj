@@ -3,19 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4DDF3223DC190991D46E01DD /* Pods_HeroesMavel_HeroesMavelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE34ACE5EC977DAF70DD738 /* Pods_HeroesMavel_HeroesMavelUITests.framework */; };
 		741573A1271E4C1600884D85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573A0271E4C1600884D85 /* AppDelegate.swift */; };
 		741573A3271E4C1600884D85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573A2271E4C1600884D85 /* SceneDelegate.swift */; };
-		741573A5271E4C1600884D85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573A4271E4C1600884D85 /* ViewController.swift */; };
-		741573A8271E4C1600884D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741573A6271E4C1600884D85 /* Main.storyboard */; };
+		741573A5271E4C1600884D85 /* CharacterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573A4271E4C1600884D85 /* CharacterListViewController.swift */; };
 		741573AA271E4C1600884D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741573A9271E4C1600884D85 /* Assets.xcassets */; };
 		741573AD271E4C1600884D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741573AB271E4C1600884D85 /* LaunchScreen.storyboard */; };
 		741573B8271E4C1700884D85 /* HeroesMavelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573B7271E4C1700884D85 /* HeroesMavelTests.swift */; };
 		741573C3271E4C1700884D85 /* HeroesMavelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573C2271E4C1700884D85 /* HeroesMavelUITests.swift */; };
+		741573DE271E7FEF00884D85 /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573DD271E7FEF00884D85 /* CharacterListView.swift */; };
+		741573E0271E807100884D85 /* CharacterListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573DF271E807100884D85 /* CharacterListPresenter.swift */; };
+		741573E2271E80BF00884D85 /* CharacterListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573E1271E80BF00884D85 /* CharacterListInteractor.swift */; };
+		741573E4271E80EE00884D85 /* CharacterListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573E3271E80EE00884D85 /* CharacterListRouter.swift */; };
+		741573E6271E812200884D85 /* CharacterListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573E5271E812200884D85 /* CharacterListBuilder.swift */; };
+		741573E8271E816A00884D85 /* CharacterListViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573E7271E816A00884D85 /* CharacterListViewDelegate.swift */; };
+		741573EC271E81BA00884D85 /* ViewCodeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573EB271E81BA00884D85 /* ViewCodeProtocol.swift */; };
+		741573EF271E824200884D85 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573EE271E824200884D85 /* CharacterCell.swift */; };
+		741573F1271E82C300884D85 /* UITableViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573F0271E82C300884D85 /* UITableViewCell+Extensions.swift */; };
+		741573F3271E839B00884D85 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573F2271E839B00884D85 /* Character.swift */; };
+		741573F5271F11B800884D85 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573F4271F11B800884D85 /* TabBar.swift */; };
+		741573F8271F122E00884D85 /* FavoriteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573F7271F122E00884D85 /* FavoriteListViewController.swift */; };
+		741573FB271F2F1D00884D85 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741573FA271F2F1D00884D85 /* UIColor+Extension.swift */; };
 		ADB595E3647E842AA6E2D473 /* Pods_HeroesMavel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784F0C242F257FB4476EE84C /* Pods_HeroesMavel.framework */; };
 		F7D00A1D2637ED34E39C5AED /* Pods_HeroesMavelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D2A5F25EE239639D9AC6DB /* Pods_HeroesMavelTests.framework */; };
 /* End PBXBuildFile section */
@@ -45,8 +57,7 @@
 		7415739D271E4C1500884D85 /* HeroesMavel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroesMavel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		741573A0271E4C1600884D85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		741573A2271E4C1600884D85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		741573A4271E4C1600884D85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		741573A7271E4C1600884D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		741573A4271E4C1600884D85 /* CharacterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewController.swift; sourceTree = "<group>"; };
 		741573A9271E4C1600884D85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		741573AC271E4C1600884D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		741573AE271E4C1600884D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +67,19 @@
 		741573BE271E4C1700884D85 /* HeroesMavelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroesMavelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		741573C2271E4C1700884D85 /* HeroesMavelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesMavelUITests.swift; sourceTree = "<group>"; };
 		741573C4271E4C1700884D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741573DD271E7FEF00884D85 /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		741573DF271E807100884D85 /* CharacterListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListPresenter.swift; sourceTree = "<group>"; };
+		741573E1271E80BF00884D85 /* CharacterListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListInteractor.swift; sourceTree = "<group>"; };
+		741573E3271E80EE00884D85 /* CharacterListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListRouter.swift; sourceTree = "<group>"; };
+		741573E5271E812200884D85 /* CharacterListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListBuilder.swift; sourceTree = "<group>"; };
+		741573E7271E816A00884D85 /* CharacterListViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewDelegate.swift; sourceTree = "<group>"; };
+		741573EB271E81BA00884D85 /* ViewCodeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCodeProtocol.swift; sourceTree = "<group>"; };
+		741573EE271E824200884D85 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		741573F0271E82C300884D85 /* UITableViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extensions.swift"; sourceTree = "<group>"; };
+		741573F2271E839B00884D85 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		741573F4271F11B800884D85 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		741573F7271F122E00884D85 /* FavoriteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListViewController.swift; sourceTree = "<group>"; };
+		741573FA271F2F1D00884D85 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		784F0C242F257FB4476EE84C /* Pods_HeroesMavel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroesMavel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE34ACE5EC977DAF70DD738 /* Pods_HeroesMavel_HeroesMavelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroesMavel_HeroesMavelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C11E176604D06C1BB8354B40 /* Pods-HeroesMavel-HeroesMavelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroesMavel-HeroesMavelUITests.release.xcconfig"; path = "Target Support Files/Pods-HeroesMavel-HeroesMavelUITests/Pods-HeroesMavel-HeroesMavelUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,13 +140,10 @@
 		7415739F271E4C1500884D85 /* HeroesMavel */ = {
 			isa = PBXGroup;
 			children = (
-				741573A0271E4C1600884D85 /* AppDelegate.swift */,
-				741573A2271E4C1600884D85 /* SceneDelegate.swift */,
-				741573A4271E4C1600884D85 /* ViewController.swift */,
-				741573A6271E4C1600884D85 /* Main.storyboard */,
-				741573A9271E4C1600884D85 /* Assets.xcassets */,
-				741573AB271E4C1600884D85 /* LaunchScreen.storyboard */,
 				741573AE271E4C1600884D85 /* Info.plist */,
+				741573D6271E7DE600884D85 /* Resources */,
+				741573D7271E7DF800884D85 /* Source */,
+				741573D8271E7DFF00884D85 /* SupportFiles */,
 			);
 			path = HeroesMavel;
 			sourceTree = "<group>";
@@ -145,6 +166,109 @@
 			path = HeroesMavelUITests;
 			sourceTree = "<group>";
 		};
+		741573D6271E7DE600884D85 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				741573A9271E4C1600884D85 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		741573D7271E7DF800884D85 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				741573DB271E7E6800884D85 /* Features */,
+				741573E9271E81A000884D85 /* Shared */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		741573D8271E7DFF00884D85 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				741573A0271E4C1600884D85 /* AppDelegate.swift */,
+				741573A2271E4C1600884D85 /* SceneDelegate.swift */,
+				741573AB271E4C1600884D85 /* LaunchScreen.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		741573D9271E7E1200884D85 /* CharacterList */ = {
+			isa = PBXGroup;
+			children = (
+				741573DC271E7F1100884D85 /* View */,
+				741573E5271E812200884D85 /* CharacterListBuilder.swift */,
+				741573E1271E80BF00884D85 /* CharacterListInteractor.swift */,
+				741573DF271E807100884D85 /* CharacterListPresenter.swift */,
+				741573E3271E80EE00884D85 /* CharacterListRouter.swift */,
+				741573A4271E4C1600884D85 /* CharacterListViewController.swift */,
+				741573E7271E816A00884D85 /* CharacterListViewDelegate.swift */,
+				741573F2271E839B00884D85 /* Character.swift */,
+			);
+			path = CharacterList;
+			sourceTree = "<group>";
+		};
+		741573DA271E7E2200884D85 /* CharacterDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CharacterDetails;
+			sourceTree = "<group>";
+		};
+		741573DB271E7E6800884D85 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				741573F6271F120000884D85 /* FavoriteList */,
+				741573DA271E7E2200884D85 /* CharacterDetails */,
+				741573D9271E7E1200884D85 /* CharacterList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		741573DC271E7F1100884D85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				741573DD271E7FEF00884D85 /* CharacterListView.swift */,
+				741573EE271E824200884D85 /* CharacterCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		741573E9271E81A000884D85 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				741573ED271E81C400884D85 /* Extensions */,
+				741573EA271E81A800884D85 /* Common */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		741573EA271E81A800884D85 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				741573EB271E81BA00884D85 /* ViewCodeProtocol.swift */,
+				741573F4271F11B800884D85 /* TabBar.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		741573ED271E81C400884D85 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				741573F0271E82C300884D85 /* UITableViewCell+Extensions.swift */,
+				741573FA271F2F1D00884D85 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		741573F6271F120000884D85 /* FavoriteList */ = {
+			isa = PBXGroup;
+			children = (
+				741573F7271F122E00884D85 /* FavoriteListViewController.swift */,
+			);
+			path = FavoriteList;
+			sourceTree = "<group>";
+		};
 		905DC4034A61A42D7F12C44A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +289,6 @@
 				68602C67FC9CB67182A36132 /* Pods-HeroesMavelTests.debug.xcconfig */,
 				D9F0292304927992DCCA0B4B /* Pods-HeroesMavelTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -280,7 +403,6 @@
 			files = (
 				741573AD271E4C1600884D85 /* LaunchScreen.storyboard in Resources */,
 				741573AA271E4C1600884D85 /* Assets.xcassets in Resources */,
-				741573A8271E4C1600884D85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,9 +547,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				741573A5271E4C1600884D85 /* ViewController.swift in Sources */,
+				741573F3271E839B00884D85 /* Character.swift in Sources */,
+				741573A5271E4C1600884D85 /* CharacterListViewController.swift in Sources */,
+				741573E0271E807100884D85 /* CharacterListPresenter.swift in Sources */,
+				741573F1271E82C300884D85 /* UITableViewCell+Extensions.swift in Sources */,
+				741573E2271E80BF00884D85 /* CharacterListInteractor.swift in Sources */,
+				741573EF271E824200884D85 /* CharacterCell.swift in Sources */,
+				741573E4271E80EE00884D85 /* CharacterListRouter.swift in Sources */,
+				741573E8271E816A00884D85 /* CharacterListViewDelegate.swift in Sources */,
+				741573F8271F122E00884D85 /* FavoriteListViewController.swift in Sources */,
 				741573A1271E4C1600884D85 /* AppDelegate.swift in Sources */,
+				741573FB271F2F1D00884D85 /* UIColor+Extension.swift in Sources */,
+				741573E6271E812200884D85 /* CharacterListBuilder.swift in Sources */,
+				741573EC271E81BA00884D85 /* ViewCodeProtocol.swift in Sources */,
+				741573DE271E7FEF00884D85 /* CharacterListView.swift in Sources */,
 				741573A3271E4C1600884D85 /* SceneDelegate.swift in Sources */,
+				741573F5271F11B800884D85 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,14 +598,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		741573A6271E4C1600884D85 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				741573A7271E4C1600884D85 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		741573AB271E4C1600884D85 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
